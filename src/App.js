@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import Toolbar from "./Toolbar";
 
-function App() {
+export default function App() {
+  const white = React.useRef(null)
+  const black = React.useRef(null)
+  const yellow = React.useRef(null)
+
+
+
+  const handleClick = (type) => {
+    let ref = null
+
+    if (type === "white") ref = white
+    if (type === "yellow") ref = yellow
+    if (type === "black") ref = black
+
+
+    ref.current.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+    })
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div>
+      <Toolbar handleClick={handleClick} />
+      <div ref={white} className="white">
+        test test test
+        </div>
+      <div ref={yellow} className="yellow" />
+      <div ref={black} className="black" />
     </div>
-  );
+  )
 }
-
-export default App;
