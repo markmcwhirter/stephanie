@@ -167,7 +167,7 @@ a {
   height: 100px;
   width: 100%;
   left: 0;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+  background: url(images/rip.svg) bottom;
   background-size: 200%;
   padding-bottom: 20px;
 }
@@ -265,4 +265,9 @@ a {
 
 .flex-child:first-child {
     margin-right: 20px;
+}
+
+.image_sizer {
+  max-height:100%;
+  max-width:500px;
 }

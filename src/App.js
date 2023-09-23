@@ -1,37 +1,46 @@
 import * as React from "react";
-import Toolbar from "./Toolbar";
+import BioPage from "./BioPage";
+import BookPage from "./BookPage";
+import BlogPage from "./BlogPage";
+import PropheticPage from "./PropheticPage";
+import MediaPage from "./MediaPage";
+import ShoppingPage from "./ShoppingPage";
+import ContactPage from "./ContactPage";
+import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js"; 
+
+const initialOptions = {
+  "client-id": "K6VGSQREMG988",
+  currency: "USD",
+  intent: "capture",
+  "data-client-token": "abc123xyz==",
+};
 
 export default function App() {
-  const white = React.useRef(null)
-  const black = React.useRef(null)
-  const yellow = React.useRef(null)
-
-
-
-  const handleClick = (type) => {
-    let ref = null
-
-    if (type === "white") ref = white
-    if (type === "yellow") ref = yellow
-    if (type === "black") ref = black
-
-
-    ref.current.scrollIntoView({
-      behavior: "smooth",
-      block: "nearest",
-    })
-  }
-
 
   return (
-    
-    <div>
-      <Toolbar handleClick={handleClick} />
-      <div ref={white} className="white">
-        test test test
-        </div>
-      <div ref={yellow} className="yellow" />
-      <div ref={black} className="black" />
+<div className="content" id="content">
+    <div id="titlepage">TITLE</div>
+
+    <div id="navbar1">
+        <a href="#titlepage">Home</a>
+        <a href="#biopage">About</a>
+        <a href="#bookpage">Books</a>
+        <a href="#blogpage">Blog</a>
+        <a href="#propheticpage">Prophetic Ministry</a>
+        <a href="#mediapage">Media</a>
+        <a href="#shoppage">Shop</a>
+        <a href="#contactpage">Contact</a>
     </div>
+    <BookPage></BookPage>
+    <BioPage></BioPage>
+    <BlogPage></BlogPage>
+    <PropheticPage></PropheticPage>
+    <MediaPage></MediaPage>
+    <ShoppingPage></ShoppingPage>
+    <ContactPage></ContactPage>
+    <PayPalScriptProvider options={initialOptions}>
+            <PayPalButtons />
+        </PayPalScriptProvider>
+</div>
   )
 }
