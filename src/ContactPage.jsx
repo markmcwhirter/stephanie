@@ -1,32 +1,53 @@
+// Render Prop
 import React from 'react';
- import { useFormik,Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 
+const ContactPageForm = () => (
+
+  <div id="contactpage" className="torn-paper">
+    <div className="flex-container">
+      <div className="flex-child">
+        <Formik
+          initialValues={{ email: '', password: '' }}
+          validate={values => {
+            const errors = {};
+            if (!values.email) {
+              errors.email = 'Required';
+            } 
+            else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email) ) {
+              errors.email = 'Invalid email address';
+            }
+            return errors;
+          }}
+          onSubmit={(values, { setSubmitting }) => {
+            setTimeout(() => {
+              alert(JSON.stringify(values, null, 2));
+              setSubmitting(false);
+            }, 400);
+          }}
+        >
+          {({ isSubmitting }) => (
+            <Form>
+              <Field type="email" name="email" />
+              <ErrorMessage name="email" component="div" />
+              <Field type="password" name="password" />
+              <ErrorMessage name="password" component="div" />
+              <button type="submit" disabled={isSubmitting}>
+                Submit
+              </button>
+            </Form>
+          )}
+        </Formik>
+      </div>
+    </div>
+  </div>
+
+);
 
 export default function ContactPage() {
-      // Pass the useFormik() hook initial form values and a submit function that will
-   // be called when the form is submitted
-   const formik = useFormik({
-    initialValues: {
-      email: '',
-    },
-    onSubmit: values => {
-      alert(JSON.stringify(values, null, 2));
-    },
-  });
   return (
-    <div id="contactpage">
-    <form onSubmit={formik.handleSubmit}>
-      <label htmlFor="email">Email Address</label>
-      <input
-        id="email"
-        name="email"
-        type="email"
-        onChange={formik.handleChange}
-        value={formik.values.email}
-      />
-
-      <button type="submit">Submit</button>
-    </form>
+    <div>
+      <ContactPageForm></ContactPageForm>
     </div>
   );
-  }    
+};

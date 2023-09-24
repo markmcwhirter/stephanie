@@ -6,14 +6,8 @@ import PropheticPage from "./PropheticPage";
 import MediaPage from "./MediaPage";
 import ShoppingPage from "./ShoppingPage";
 import ContactPage from "./ContactPage";
-import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js"; 
+import ErrorBoundary from "./ErrorBoundary";
 
-const initialOptions = {
-  "client-id": "K6VGSQREMG988",
-  currency: "USD",
-  intent: "capture",
-  "data-client-token": "abc123xyz==",
-};
 
 export default function App() {
 
@@ -31,16 +25,18 @@ export default function App() {
         <a href="#shoppage">Shop</a>
         <a href="#contactpage">Contact</a>
     </div>
+
+
     <BookPage></BookPage>
     <BioPage></BioPage>
     <BlogPage></BlogPage>
     <PropheticPage></PropheticPage>
     <MediaPage></MediaPage>
     <ShoppingPage></ShoppingPage>
+    <ErrorBoundary fallback={<p>Something went wrong</p>}>
     <ContactPage></ContactPage>
-    <PayPalScriptProvider options={initialOptions}>
-            <PayPalButtons />
-        </PayPalScriptProvider>
+    </ErrorBoundary>
+
 </div>
   )
 }

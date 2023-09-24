@@ -88,7 +88,7 @@ a {
     height: 1000px;
     width: 100%;
     background-color: #BC986A;
-    background-image: url('images/vintage-wallpaper-background.jpg');
+    background-image: url('images/seamless-beige-paper-texture-background.jpg');
     background-size: cover; /* Cover the viewport */
     background-repeat: no-repeat; /* Do not repeat the image */
     border-bottom: 1px solid #ccc;
@@ -137,14 +137,14 @@ a {
 #blogpage {
     height: 800px; /* Adjust the height of each item as needed */
     width: 100%;
-    background-color: #FCEDDA;
-    background-image: url('images/seamless-beige-paper-texture-background.jpg');
+    background-color: #FCEDDA;    
+    background-image: url('images/vintage-wallpaper-background.jpg');
     background-repeat: no-repeat, repeat;
     background-position: top center, center center;
     padding-top: 20px; /* This space allows the torn effect to be seen */
     /* background-size: cover; */
     border-bottom: 1px solid #ccc;
-    padding: 20px;
+    /* padding: 20px; */
     box-sizing: border-box;
     color: #503c2c; /* Brown color for text */
     background-attachment: scroll !important;
@@ -157,7 +157,7 @@ a {
   height: 100px;
   width: 100%;
   left: 0;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) top;
+  background: url('images/rip.svg') top;
   background-size: 200%;
   padding-top: 20px;
 }
@@ -167,16 +167,22 @@ a {
   height: 100px;
   width: 100%;
   left: 0;
-  background: url(images/rip.svg) bottom;
+  background: url('images/rip.svg') bottom;
   background-size: 200%;
   padding-bottom: 20px;
 }
 
 
 #propheticpage {
+    background-color: #FCEDDA;
+    background-image: url('images/vintage-wallpaper-background.jpg');
+    background-repeat: no-repeat, repeat;
+    background-position: top center, center center;
+
     height: 850px; /* Adjust the height of each item as needed */
     width: 100%;
-    background-color: #BFEEC1; /* Cream color for items */
+
+    padding-top: 20px; /* This space allows the torn effect to be seen */
     border-bottom: 1px solid #ccc;
     padding: 20px;
     box-sizing: border-box;
@@ -185,12 +191,35 @@ a {
     top: 4200px;
 }
 
+#propheticpage::before {
+  content: "";
+  position: relative;
+  top: 100%;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  background: url('images/rip.svg') top;
+  background-size: 200%;
+  padding-top: 20px;
+}
+#propheticpage::after {
+  content: "";
+  top: 100%;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  background: url('images/rip.svg') bottom;
+  background-size: 200%;
+  padding-bottom: 20px;
+}
+
 #mediapage {
     height: 1000px;
     width: 100%;
     background-color: #FFFFFF; 
+    padding-top: 20px; /* This space allows the torn effect to be seen */
     border-bottom: 1px solid #ccc;
-    padding: 40px;
+    padding: 20px;
     box-sizing: border-box;
     color: #503c2c; /* Brown color for text */
     background-attachment: scroll !important;
@@ -201,6 +230,7 @@ a {
     height: 850px; /* Adjust the height of each item as needed */
     width: 100%;
     background-color: #BFEEC1; /* Cream color for items */
+    padding-top: 20px; /* This space allows the torn effect to be seen */
     border-bottom: 1px solid #ccc;
     padding: 20px;
     box-sizing: border-box;
@@ -210,9 +240,14 @@ a {
 }
 
 #contactpage {
+    background-color: #FCEDDA;
+    background-image: url('images/vintage-textured-paper-background-vector.jpg');
+    background-repeat: no-repeat, repeat;
+    background-position: top center, center center;
+
     height: 850px;
     width: 100%;
-    background-color: #BFEEC1; /* Cream color for items */
+    padding-top: 20px; /* This space allows the torn effect to be seen */
     border-bottom: 1px solid #ccc;
     padding: 20px;
     box-sizing: border-box;
