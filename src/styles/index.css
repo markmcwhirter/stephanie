@@ -1,0 +1,353 @@
+
+/* index.css 
+body .container {
+  padding: 0;
+}
+
+.white {
+  height: 98vh;
+  width: 100vw;
+  background: beige;
+}
+
+.black {
+  height: 98vh;
+  width: 100vw;
+  background: black;
+}
+
+.yellow {
+  height: 98vh;
+  width: 100vw;
+  background: yellow;
+}
+
+.toolbar {
+  display: flex;
+  position: fixed;
+  top: 15px;
+  right: 10px;
+}
+
+.white-btn {
+  width: 50px;
+  height: 20px;
+  background: beige;
+  border-radius: 2px 0 0 2px;
+}
+
+.yellow-btn {
+  width: 50px;
+  height: 20px;
+  background: yellow;
+  border-radius: 0;
+}
+
+.black-btn {
+  width: 50px;
+  height: 20px;
+  background: black;
+  border-radius: 0 2px 2px 0;
+}
+
+body button:hover {
+  filter: brightness(1.1);
+  opacity: 1;
+}
+
+*/
+html {
+	scroll-behavior:smooth
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Dancing Script", Tahoma, Verdana, sans-serif;
+    background-color: #e0dede;
+	max-width: 2000px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#titlepage {
+    height: 800px;
+    background-color: #DDAD86;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #503c2c; /* Brown color for text */
+    background-attachment: scroll !important;
+    height: 851px;
+}
+
+#biopage {
+    height: 1000px;
+    width: 100%;
+    background-color: #BC986A;
+    background-image: url('images/seamless-beige-paper-texture-background.jpg');
+    background-size: cover; /* Cover the viewport */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #503c2c; /* Brown color for text */
+    background-attachment: scroll !important;
+    top: 1000px;
+}
+
+.narrative {
+    font-family: Arial, Tahoma, Verdana, sans-serif;
+	-webkit-text-size-adjust: 100% !important;
+	line-height: 1.4;
+
+}
+
+.styled-paragraph {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #333;
+}
+
+
+#bookpage {
+    height: 950px; /* Adjust the height of each item as needed */
+    width: 100%;
+    background-color: #BFEEC1;
+    background-image: url('images/tornpage_scenic.jpg');
+    background-size: cover; /* Cover the viewport */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #503c2c; /* Brown color for text */
+    background-attachment: scroll !important;
+    top: 2000px;
+}
+
+#blogpage {
+    height: 800px; /* Adjust the height of each item as needed */
+    width: 100%;
+    background-color: #FCEDDA;    
+    background-image: url('images/vintage-wallpaper-background.jpg');
+    background-repeat: no-repeat, repeat;
+    background-position: top center, center center;
+    padding-top: 20px; /* This space allows the torn effect to be seen */
+    /* background-size: cover; */
+    border-bottom: 1px solid #ccc;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    color: #503c2c; /* Brown color for text */
+    background-attachment: scroll !important;
+    top: 3000px;
+}
+#blogpage::before {
+  content: "";
+  position: relative;
+  top: 100%;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  background: url('images/rip.svg') top;
+  background-size: 200%;
+  padding-top: 20px;
+}
+#blogpage::after {
+  content: "";
+  top: 100%;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  background: url('images/rip.svg') bottom;
+  background-size: 200%;
+  padding-bottom: 20px;
+}
+
+
+#propheticpage {
+    background-color: #FCEDDA;
+    background-image: url('images/vintage-wallpaper-background.jpg');
+    background-repeat: no-repeat, repeat;
+    background-position: top center, center center;
+
+    height: 850px; /* Adjust the height of each item as needed */
+    width: 100%;
+
+    padding-top: 20px; /* This space allows the torn effect to be seen */
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #503c2c; /* Brown color for text */
+    background-attachment: scroll !important;
+    top: 4200px;
+}
+
+#propheticpage::before {
+  content: "";
+  position: relative;
+  top: 100%;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  background: url('images/rip.svg') top;
+  background-size: 200%;
+  padding-top: 20px;
+}
+#propheticpage::after {
+  content: "";
+  top: 100%;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  background: url('images/rip.svg') bottom;
+  background-size: 200%;
+  padding-bottom: 20px;
+}
+
+#mediapage {
+    height: 1000px;
+    width: 100%;
+    background-color: #FFFFFF; 
+    padding-top: 20px; /* This space allows the torn effect to be seen */
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #503c2c; /* Brown color for text */
+    background-attachment: scroll !important;
+    top: 5500px;
+}
+
+#shoppage {
+    background-color: beige; /* Cream color for items */
+    /* background-image: url('images/vintage-textured-paper-background-vector.jpg'); */
+    background-repeat: no-repeat, repeat;
+    background-position: top center, center center;
+
+
+    height: 850px; /* Adjust the height of each item as needed */
+    width: 100%;
+
+    padding-top: 20px; /* This space allows the torn effect to be seen */
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    color:  black;
+    background-attachment: scroll !important;
+    top: 6000px;
+}
+
+#contactpage {
+    background-color: #FCEDDA;
+    background-image: url('images/vintage-textured-paper-background-vector.jpg');
+    background-repeat: no-repeat, repeat;
+    background-position: top center, center center;
+
+    height: 850px;
+    width: 100%;
+    padding-top: 20px; /* This space allows the torn effect to be seen */
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #503c2c; /* Brown color for text */
+    background-attachment: scroll !important;
+    top: 7000px;
+}
+
+#navbar1 {
+    font-family: Courier New;
+    background-color: #ad8965;
+    z-index: 1;
+    background-attachment: scroll;
+    position: relative;
+    height: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    left: 40%;
+    margin-top: -40px;
+    padding: 20px;
+}
+#homebar {
+  font-family: Courier New;
+  background-color: #ad8965;
+  z-index: 1;
+  background-attachment: scroll;
+  position: relative;
+  height: 20px;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  left: 50%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    /* This will target tablet devices and below */
+    .item {
+        height: auto;
+    }
+
+    #navbar1 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* This will target smartphone devices */
+    #navbar1 {
+        height: auto;
+    }
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.image_sizer {
+  max-height:100%;
+  max-width:500px;
+}
+
+/* container */
+.columns-3 {
+  width: 100%;
+  display:flex;
+}
+/* columns */
+.columns-3 > * {
+  width: calc(100% / 3);
+}
+/* Optional */
+.bg-left {
+background-color: beige;
+}
+.bg-middle {
+  background-color: white;
+}
+.bg-right {
+  background-color: beige;
+}
