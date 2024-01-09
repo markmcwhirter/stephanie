@@ -1,10 +1,10 @@
-@use "../../../sassStyles/_variables" as v;
-@use "../../../sassStyles/_mixins" as m;
+@use "../../styles/sassStyles/_variables" as v;
+@use "../../styles/sassStyles/_mixins" as m;
 
 .contact__container {
   position: relative;
   margin-top: 40px;
-  background-color: v.$primaryDark2;
+  background-color: v.$primary;
   display: grid;
   grid-template-columns: 1fr;
 
@@ -25,7 +25,7 @@
 }
 
 .contact__title {
-  color: v.$secondary1;
+  color: v.$primaryDark1;
 
   span {
     display: block;
@@ -70,19 +70,19 @@
   }
 
   h3 {
-    color: v.$secondary1;
+    color: v.$primaryDark1;
     font-weight: normal;
     margin-top: 0;
     margin-bottom: 15px;
   }
 
   a {
-    color: v.$highlight1;
+    color: v.$primaryDark1;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 
     &:hover {
-      color: v.$primary;
+      color: v.$warning;
     }
   }
 }

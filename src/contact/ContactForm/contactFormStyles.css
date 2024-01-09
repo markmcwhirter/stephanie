@@ -1,12 +1,12 @@
 .contact-form__confirmation-container {
   text-align: center;
   font-weight: normal;
-  color: #D0C6AC;
+  color: #533020;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #39251C;
+  background-color: #D0C6AC;
   padding: 20px;
   margin-bottom: 20px;
   transition: 0.3s ease-in-out;

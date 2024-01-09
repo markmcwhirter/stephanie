@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './contactFormStyles.scss';
-import InputField from "../ui/InputField/InputField";
+import InputField from "../../ui/InputField/InputField";
 
 
 
@@ -18,17 +18,17 @@ const ContactForm = props => {
 
                 <form
                     className="mc__form"
-                    name="ghs-contact-form"
+                    name="mgm-contact-form"
                     method="post"
                 >
                     <div className="mc__field-container">
-                        <input type="hidden" name="form-name" value="ghs-contact-form"/>
+                        <input type="hidden" name="form-name" value="mgm-contact-form"/>
                         <InputField
                             label="Name"
                             onChangeHandler={setName}
                             type="text"
                             value={name}
-                            placeholder="Jane Smith"
+                            placeholder="Your Name Here"
                             isRequired
                             name="name"
                         />

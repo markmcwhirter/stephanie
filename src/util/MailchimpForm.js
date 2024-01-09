@@ -23,8 +23,8 @@ const CustomForm = ({ status, message, onValidated }) => {
         email.indexOf("@") > -1 &&
         onValidated({
             EMAIL: email,
-            MERGE1: firstName,
-            MERGE2: lastName,
+            FNAME: firstName,
+            LNAME: lastName,
         });
 
     }
@@ -121,7 +121,8 @@ const CustomForm = ({ status, message, onValidated }) => {
 
 
 const MailchimpForm = props => {
-    const url = `https://genhybridsystems.us1.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
+    const url = "https://stephaniemckittrick.us17.list-manage.com/subscribe/post?u=e64a2ef7be14c7caa7604f49b&amp;id=48da750c6d&amp;f_id=00ee66e0f0";
+    //const url = `https://genhybridsystems.us1.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
 
     return (
 

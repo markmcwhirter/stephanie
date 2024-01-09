@@ -1,5 +1,5 @@
-@use "../../../sassStyles/_variables" as v;
-@use "../../../sassStyles/_mixins" as m;
+@use "../../styles/sassStyles/_variables" as v;
+@use "../../styles/sassStyles/_mixins" as m;
 
 .primaryBtn {
   background-color: v.$highlight1;

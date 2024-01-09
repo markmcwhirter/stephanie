@@ -1,0 +1,48 @@
+.primaryBtn {
+  background-color: #FFBB0B;
+  border-style: none;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  font-weight: bold;
+  color: #D0C6AC;
+  box-shadow: 0 4px 23px rgba(0, 0, 0, 0.45);
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+.primaryBtn--normal {
+  padding: 8px 18px;
+  font-size: 16px;
+}
+@media (min-width: 676px) {
+  .primaryBtn--normal {
+    max-width: -moz-max-content;
+    max-width: max-content;
+    padding: 4px 18px;
+  }
+}
+.primaryBtn--big {
+  padding: 10px 30px;
+  font-size: 20px;
+}
+@media (min-width: 676px) {
+  .primaryBtn--big {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+.primaryBtn:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+  transform: scale(0.98);
+  background-color: #d79b00;
+}
+.primaryBtn--grid {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}/*# sourceMappingURL=primaryBtnStyles.css.map */

@@ -1,0 +1,65 @@
+.inputField__label {
+  display: grid;
+  grid-row-gap: 10px;
+  color: #D6C089;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+}
+@media (min-width: 676px) {
+  .inputField__label {
+    font-size: 18px;
+  }
+}
+
+.inputField__field {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  background-color: #39251C;
+  border: none;
+  font-size: 16px;
+  padding: 16px 20px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  font-weight: bold;
+  color: #D6C089;
+}
+@media (min-width: 676px) {
+  .inputField__field {
+    font-size: 18px;
+    padding: 20px 25px;
+  }
+}
+
+::-moz-placeholder { /* Firefox */
+  font-weight: normal;
+  color: #D0C6AC;
+}
+
+::placeholder { /* Firefox */
+  font-weight: normal;
+  color: #D0C6AC;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #D0C6AC;
+  font-weight: normal;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #D0C6AC;
+  font-weight: normal;
+}
+
+input[disabled] {
+  background-color: #432C21;
+  cursor: default;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+}
+input[disabled]:hover {
+  background-color: #432C21;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+  transform: scale(1);
+}/*# sourceMappingURL=inputFieldStyles.css.map */
