@@ -21,7 +21,8 @@ export default function App() {
         <div className="content" id="content">
           <div id="titlepage">
           <div className="flex-container">
-
+                <div className="flex-child">
+                </div>
                 <div className="flex-child">
                     <img src="images/SplashSteph.jpg" className="image_sizer" />
                 </div>
