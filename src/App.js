@@ -20,12 +20,11 @@ export default function App() {
       <MGMProvider>
         <div className="content" id="content">
           <div id="titlepage">
-            <div className="flex-container">
-              
+          <div className="flex-container">
 
-              <div className="flex-child">
-                <img src="\images\SplashSteph.jpg" className="image_sizer" />
-              </div>
+                <div className="flex-child">
+                    <img src="images/SplashSteph.jpg" className="image_sizer" />
+                </div>
 
             </div>
           </div>
