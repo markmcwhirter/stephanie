@@ -30,6 +30,10 @@ export default function BioPage() {
                 </div>
 
             </div>
+            <div id="homebar">
+                <a href="#titlepage">Home</a>
+            </div>
         </div>
+        
     )
 }

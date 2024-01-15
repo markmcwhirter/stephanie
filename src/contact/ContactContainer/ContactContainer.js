@@ -20,8 +20,12 @@ const ContactContainer = props => {
                 <h2 className="contact__title contact__title">Contact <span className="g__text-emphasis">our team</span></h2>
                 <ContactForm />
             </div>
-
+            <div id="homebar">
+                <a href="#titlepage">Home</a>
+            </div>
         </div>
+        
+        
 
     )
 }

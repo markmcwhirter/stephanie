@@ -24,7 +24,9 @@ export default function App() {
                 <div className="flex-child">
                 </div>
                 <div className="flex-child">
-                    <img src="images/SplashSteph.jpg" className="image_sizer" />
+                </div>
+                <div className="flex-child">
+                    <img src="images/SplashSteph.jpg" className="image_sizer_large" />
                 </div>
 
             </div>
@@ -41,8 +43,8 @@ export default function App() {
             <a href="#connect">Contact</a>
           </div>
 
-          <BookPage></BookPage>
           <BioPage></BioPage>
+          <BookPage></BookPage>
           <BlogPage></BlogPage>
           <PropheticPage></PropheticPage>
           <MediaPage></MediaPage>
