@@ -80,6 +80,8 @@ ul {
 }
 
 #titlepage {
+  background-image: url("brown.png");
+  background-repeat: repeat;
     height: 800px;
     background-color: #DDAD86;
     border-bottom: 1px solid #ccc;
