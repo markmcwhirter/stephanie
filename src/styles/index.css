@@ -79,11 +79,9 @@ ul {
   padding: 0;
 }
 
-#titlepage {
-    background-image: url("images/brown1.png");
-    background-repeat: repeat;
+#titlepage {   
     height: 800px;
-    background-color: #DDAD86;
+    background-color: #705134;
     border-bottom: 1px solid #ccc;
     padding: 20px;
     box-sizing: border-box;
@@ -92,6 +90,18 @@ ul {
     height: 851px;
 }
 
+.white-border {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: 10 auto;
+  color: #ffffff;
+
+}
 #biopage {
     height: 1000px;
     width: 100%;
