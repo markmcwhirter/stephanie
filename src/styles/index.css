@@ -79,6 +79,13 @@ ul {
   padding: 0;
 }
 
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 #titlepage {   
     height: 800px;
     background-color: #705134;
