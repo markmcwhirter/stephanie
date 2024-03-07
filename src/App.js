@@ -23,7 +23,12 @@ export default function App() {
             <div className="flex-container">
 
               <div className="flex-child">
-                <img src="images/steph1b.jpg" alt="" className="image_sizer_large" />
+                <div className="flex-child">
+                  <div className="great-vibes-regular">
+                    <div>Stephanie McKittrick</div>
+                  </div>
+                  <img src="images/steph1b.jpg" alt="" className="image_sizer_large" />
+                </div>
               </div>
 
               <div className="flex-child">
@@ -50,13 +55,13 @@ export default function App() {
             <a href="#biopage">About</a>
             <a href="#bookpage">Books</a>
             <a href="http://146.190.48.100/" target="_blank">Blog</a>
-            <a href="https://www.youtube.com/@StephanieMckittrick"  target="_blank">Prophetic Ministry</a>
+            <a href="https://www.youtube.com/@StephanieMckittrick" target="_blank">Prophetic Ministry</a>
             <a href="#mediapage">Media</a>
             <a href="#shoppage">Shop</a>
           </div>
 
           <BioPage></BioPage>
-          <BookPage></BookPage>          
+          <BookPage></BookPage>
           <MediaPage></MediaPage>
           <ShoppingPage></ShoppingPage>
           <ContactContainer></ContactContainer>
