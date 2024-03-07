@@ -48,7 +48,7 @@ export default function App() {
             <a href="#biopage">About</a>
             <a href="#bookpage">Books</a>
             <a href="http://146.190.48.100/" target="_blank">Blog</a>
-            <a href="#propheticpage">Prophetic Ministry</a>
+            <a href="https://www.youtube.com/@StephanieMckittrick"  target="_blank">Prophetic Ministry</a>
             <a href="#mediapage">Media</a>
             <a href="#shoppage">Shop</a>
             <a href="#connect">Contact</a>
@@ -56,7 +56,6 @@ export default function App() {
 
           <BioPage></BioPage>
           <BookPage></BookPage>          
-          <PropheticPage></PropheticPage>
           <MediaPage></MediaPage>
           <ShoppingPage></ShoppingPage>
           <ContactContainer></ContactContainer>
