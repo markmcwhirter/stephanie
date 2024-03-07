@@ -32,7 +32,9 @@ export default function App() {
                 </div>
                 <div className="great-vibes-regular">
                   <div>Speaker</div>
+                  <div className="vertical-space2"></div>
                   <div>Coach</div>
+                  <div className="vertical-space2"></div>
                   <div>Minister</div>
                 </div>
               </div>
@@ -51,7 +53,6 @@ export default function App() {
             <a href="https://www.youtube.com/@StephanieMckittrick"  target="_blank">Prophetic Ministry</a>
             <a href="#mediapage">Media</a>
             <a href="#shoppage">Shop</a>
-            <a href="#connect">Contact</a>
           </div>
 
           <BioPage></BioPage>

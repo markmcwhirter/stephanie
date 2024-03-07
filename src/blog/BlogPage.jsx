@@ -12,7 +12,7 @@ export default function BlogPage() {
                 //display="initial"
                 //position="absolute"
                 frameborder="0" marginheight="0px" marginwidth="0px" allowfullscreen />
-
+            <div className="vertical-space2"></div>
             <div id="homebar">
                 <a href="#titlepage">Home</a>
             </div>

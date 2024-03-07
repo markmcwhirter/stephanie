@@ -90,6 +90,9 @@ ul {
 .vertical-space1 {
   height: 75px;
 }
+.vertical-space2 {
+  height: 15px;
+}
 
 #titlepage {   
     height: 800px;
