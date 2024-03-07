@@ -65,7 +65,7 @@ body {
     padding: 0;
     font-family: "Dancing Script", Tahoma, Verdana, sans-serif;
     background-color: #e0dede;
-	max-width: 2000px;
+	  max-width: 2000px;
 }
 
 a {
@@ -83,8 +83,13 @@ ul {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
+  color: white;
+  font-size: 72px;
 }
 
+.vertical-space1 {
+  height: 75px;
+}
 
 #titlepage {   
     height: 800px;

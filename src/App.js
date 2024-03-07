@@ -27,6 +27,14 @@ export default function App() {
               </div>
 
               <div className="flex-child">
+                <div className="flex-child vertical-space1">
+
+                </div>
+                <div className="great-vibes-regular">
+                  <div>Speaker</div>
+                  <div>Coach</div>
+                  <div>Minister</div>
+                </div>
               </div>
               <div className="flex-child">
 
@@ -39,7 +47,7 @@ export default function App() {
             <a href="#titlepage">Home</a>
             <a href="#biopage">About</a>
             <a href="#bookpage">Books</a>
-            <a href="#blogpage">Blog</a>
+            <a href="http://146.190.48.100/" target="_blank">Blog</a>
             <a href="#propheticpage">Prophetic Ministry</a>
             <a href="#mediapage">Media</a>
             <a href="#shoppage">Shop</a>
@@ -47,8 +55,7 @@ export default function App() {
           </div>
 
           <BioPage></BioPage>
-          <BookPage></BookPage>
-          <BlogPage></BlogPage>
+          <BookPage></BookPage>          
           <PropheticPage></PropheticPage>
           <MediaPage></MediaPage>
           <ShoppingPage></ShoppingPage>
