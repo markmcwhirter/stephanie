@@ -94,7 +94,8 @@ ul {
 }
 
 #titlepage {   
-    background-color: #705134;
+    /* background-color: #705134; */
+    background-color: #F1E9D2;
     border-bottom: 1px solid #ccc;
     padding: 20px;
     box-sizing: border-box;
