@@ -63,7 +63,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: "Dancing Script", Tahoma, Verdana, sans-serif;
     background-color: #e0dede;
 	  max-width: 2000px;
 }
@@ -95,7 +94,6 @@ ul {
 }
 
 #titlepage {   
-    height: 800px;
     background-color: #705134;
     border-bottom: 1px solid #ccc;
     padding: 20px;
@@ -103,6 +101,7 @@ ul {
     color: #503c2c; /* Brown color for text */
     background-attachment: scroll !important;
     height: 851px;
+    margin-bottom: -10px;
 }
 
 .white-border {
@@ -129,7 +128,7 @@ ul {
     box-sizing: border-box;
     color: #503c2c; /* Brown color for text */
     background-attachment: scroll !important;
-    top: 1000px;
+    margin-top: -40px;
 }
 
 .narrative {
@@ -249,7 +248,7 @@ ul {
 #mediapage {
     height: 1000px;
     width: 100%;
-    background-color: #FFFFFF; 
+    background: url('images/vintage-textured-paper-background-vector.jpg') bottom;    
     padding-top: 20px; /* This space allows the torn effect to be seen */
     border-bottom: 1px solid #ccc;
     padding: 20px;

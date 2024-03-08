@@ -21,6 +21,7 @@ export default function MediaPage() {
                 </div>
 
             </div>
+            <div className="vertical-space2"></div>
             <div id="homebar">
                 <a href="#titlepage">Home</a>
             </div>
