@@ -27,7 +27,7 @@ export default function App() {
                   <div className="great-vibes-regular">
                     <div>Stephanie McKittrick</div>
                   </div>
-                  <img src="images/steph1_beige.jpg" alt="" className="image_sizer_large" />
+                  <img src="images/steph1b_beige.jpg" alt="" className="image_sizer_large" />
                 </div>
               </div>
 
