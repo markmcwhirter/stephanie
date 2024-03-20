@@ -19,24 +19,23 @@ export default function App() {
     <>
       <MGMProvider>
         <div className="content" id="content">
+
           <div id="titlepage">
             <div className="flex-container">
-
+              <div id="navbar1">
+                <a href="#titlepage">Home</a>
+                <a href="#biopage">About</a>
+                <a href="#bookpage">Books</a>
+                <a href="http://146.190.48.100/" target="_blank">Blog</a>
+                <a href="https://www.youtube.com/@StephanieMckittrick" target="_blank">Prophetic Ministry</a>
+                <a href="#mediapage">Media</a>
+                <a href="#shoppage">Shop</a>
+              </div>
               <div className="flex-child">
-                  <img src="images/steph_cover.jpg" alt="" className="image_sizer_large" />                
-              </div>              
+                <img src="images/steph_cover.jpg" alt="" />
+              </div>
 
             </div>
-          </div>
-
-          <div id="navbar1">
-            <a href="#titlepage">Home</a>
-            <a href="#biopage">About</a>
-            <a href="#bookpage">Books</a>
-            <a href="http://146.190.48.100/" target="_blank">Blog</a>
-            <a href="https://www.youtube.com/@StephanieMckittrick" target="_blank">Prophetic Ministry</a>
-            <a href="#mediapage">Media</a>
-            <a href="#shoppage">Shop</a>
           </div>
 
           <BioPage></BioPage>

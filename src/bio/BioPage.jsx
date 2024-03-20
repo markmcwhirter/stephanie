@@ -3,26 +3,15 @@ export default function BioPage() {
         <div id="biopage" className="torn-paper">
             <div className="flex-container narrative styled-paragraph">
                 <div className="flex-child">
-                    <p>Stephanie McKittrick grew up in Belfast, Northern Ireland. Diagnosed with Hydrocephalus and
-                        Hemiplegic migraines, she has overcome 17 brain surgeries, 6 neck surgeries, over 20 abdominal
-                        surgeries, and much more. She also lost her precious baby girl, Layla, just hours after birth.</p>
+                Welcome! I'm Stephanie McKittrick, a Christian life coach, counselor, author, and speaker with a passion for guiding women through life's challenges and into the transformative embrace of faith and healing.
 
-                    <p>When she became a single parent to her other daughter, Lexie, while fighting for her own life, she
-                        committed to making a success of her life. She built two large "work from home" businesses,
-                        achieving global success, but nothing filled the void. Battling grief, depression, sickness, and
-                        disease, Stephanie decided to take her own life; however, she was miraculously saved.</p>
+My journey has been one of remarkable resilience and redemption. Having faced the staggering adversity of 17 brain surgeries, 20 stomach surgeries, and numerous other trials, I understand firsthand the depths of suffering. However, amidst the darkness, I encountered a miraculous moment of divine intervention that forever altered the course of my life. From that pivotal encounter with God, I found purpose and strength to navigate through adversity with unwavering faith.
 
-                    <p>In another miraculous turnaround 3 weeks later, Stephanie received a miracle healing and gave her
-                        life to Jesus. Since then, Stephanie has gone from strength to strength, Glory to Glory, sharing her
-                        story with many along the way. Stephanie has a heart and passion to see others set free through the
-                        power of the Blood of Jesus Christ. Noticing a real need in the world for others to experience the
-                        life-giving power she experienced, she began praying with others to be set free and witnessed
-                        miracles happening. As more and more women reached out for help, Stephanie made time to pray with
-                        them and see them set free.</p>
+One of the most profound challenges I've endured was overcoming the devastating loss of my baby girl. Her passing tested every fiber of my being, yet through the grace of God, I discovered the courage to grieve, heal, and find hope beyond the pain.
 
-                    <p>Stephanie has been featured in many mainstream media articles and is often requested to share her
-                        powerful testimony in other churches and media outlets.</p>
+As a single mother to a beautiful daughter named Lexie, I've experienced the joys and challenges of parenthood firsthand. My love for Lexie fuels my dedication to empowering women and guiding them towards a life of purpose and fulfillment.
 
+My mission is to extend that same beacon of hope to others who are struggling. I am deeply committed to helping women break free from the shackles of abuse, addiction, and suffering, guiding them towards a path of healing and restoration in the loving arms of Jesus Christ.
                 </div>
 
                 <div className="flex-child">
