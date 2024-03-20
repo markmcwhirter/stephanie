@@ -23,29 +23,8 @@ export default function App() {
             <div className="flex-container">
 
               <div className="flex-child">
-                <div className="flex-child">
-                  <div className="great-vibes-regular">
-                    <div>Stephanie McKittrick</div>
-                  </div>
-                  <img src="images/steph1b_beige.jpg" alt="" className="image_sizer_large" />
-                </div>
-              </div>
-
-              <div className="flex-child">
-                <div className="flex-child vertical-space1">
-
-                </div>
-                <div className="great-vibes-regular">
-                  <div>Speaker</div>
-                  <div className="vertical-space2"></div>
-                  <div>Coach</div>
-                  <div className="vertical-space2"></div>
-                  <div>Minister</div>
-                </div>
-              </div>
-              <div className="flex-child">
-
-              </div>
+                  <img src="images/steph_cover.jpg" alt="" className="image_sizer_large" />                
+              </div>              
 
             </div>
           </div>
